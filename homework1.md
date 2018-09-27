@@ -20,6 +20,6 @@ Simple syntax and project setup
 Rendering is faster and smaller
 
 
-reference
+# reference
 https://vuejs.org/v2/guide/index.html
 https://github.com/vuejs/vue.git
