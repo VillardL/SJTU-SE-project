@@ -49,9 +49,23 @@ Security is relatively low and data can be easily compromised or hijacked
 ### （二）JS calls Native
 ![JS calls Native](https://images2015.cnblogs.com/blog/745803/201602/745803-20160225172707693-462455039.png)
 ## Technical features of Web App, Hybrid App and Native App
-![](http://image.woshipm.com/wp-files/2014/12/b0cf05c189c1814380709ec94ebd5a7b.png)
+![](http://image.woshipm.com/wp-files/2014/12/b0cf05c189c1814380709ec94ebd5a7b.png)<br>
+　　The bottleneck of web app is performance, control of local resources (hardware storage, etc.), and conversely is the advantage of Native app.<br>
+　　Under the same conditions, experience good nature to stay with people, then the potential benefits come.<br>
+　　Under the same conditions, development maintenance costs low, then the benefits are also large.<br>
+　　The ios review process is relatively rigorous, with minor modifications or emergency repair cycles.<br>
+　　Experience still has an advantage over cost.
 ## Development suggestion
-### In the specific development process, what kind of app should be adopted
+　　Any product exists to address a user's specific needs.<br>
+　　Whether the need is already there or we are digging it out, our product starts around meeting the needs of our users.<br>
+　　Current mobile products can be roughly divided into two categories. One is a tool to help users achieve certain functions, such as various p-chart apps like meitu, and various taxi hailing products.<br>
+　　One is to satisfy the user's information, such as the order information on ele. me, and various questions and answers on zhihu.<br>
+　　Functional and informational, of course, most of the time a product will have both attributes<br>
+  　No matter what kind of app we are developing, we should consider the following three parts:
+* Core product features
+* Auxiliary function
+* Cooperate with operational requirements
+## In the specific development process, what kind of app should be adopted
 * If large paragraphs of text (such as news, strategy, etc.) appear in the app, and the format is relatively rich (such as bold, various fonts, etc.), it is better to use H5.<br>
 　Reason: native development is not very friendly to parsing the json string format
 * If you pay attention to the response speed of app (including the smoothness of page switching), use native development.<br>
@@ -65,3 +79,5 @@ Security is relatively low and data can be easily compromised or hijacked
 * [web app 、native app、hybrid app比较](https://www.jianshu.com/p/24bf070a4dcb)
 * [Native App vs Web App 以及 Hybrid App的实现原理](https://www.cnblogs.com/alice626/p/5217759.html)
 * [web app、native app、hybrid app之间的差异](https://blog.csdn.net/qq_33748378/article/details/51320890)
+* [Web App、Hybrid App与Native App](https://www.cnblogs.com/cloud-/p/6754468.html)
+* [做Web App 和 Native App之前，你需要考虑的四个方面](http://www.cocoachina.com/webapp/20150825/13177.html)
